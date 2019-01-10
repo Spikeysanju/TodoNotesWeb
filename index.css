@@ -1,0 +1,236 @@
+.title-img{
+    width: 400px;
+    height: 400px;
+}
+html{
+  scroll-behavior: smooth;
+
+}
+
+.title-img{
+    float: right;
+}
+
+.x-title{
+    padding: 20px;
+
+}
+.header {
+    overflow: hidden;
+    background-color: dodgerblue;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .toggle{
+        display: block;
+    }
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .title-img{
+        width: 250px;
+        height: 250px;
+   }
+   .y-image{
+    width: 50px;
+    height: 50px;
+  }
+  .y-para{
+    width: 100px;
+    text-align: justify;
+  }
+  
+  .x-para{
+    width: 250px;
+    text-align: justify;
+  
+  }
+  
+  .col2{
+    width: 30px;
+  }
+   .s-images{
+     width: 200px;
+     height: 200px;
+   }
+   
+   .func-1-timg{
+    display: none;
+    
+}
+.func-2-timg{
+   display: none;
+}
+.fun-1-img{
+   display: none;
+}
+.fun-2-img{
+    display: none;
+ }
+ 
+    
+    .header-right {
+      float: none;
+    }
+
+   
+  }
+  .jumbotron{
+
+}
+.col1{
+    width: 400px;
+    width: 400px;
+}
+.col2{
+    margin-top: 120px;
+    margin-left: 100px;
+    float: right;
+}
+.col{
+  margin-top: 100px;
+}
+.container{
+  margin-top: 50px;
+}
+.t-img{
+  width: 400px;
+  height: 300px;
+}
+.jumbotron-1{
+display: flex;
+}
+
+.s-images{
+  width: 100px;
+  height: 100px;
+  
+}
+
+.s-para{
+  text-align: center;
+  margin-top: 30px;
+}
+.s-head{
+  size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.s-title{
+  text-align: center;
+}
+.y-para{
+  width: 400px;
+}
+.y-img{
+  width: 200px;
+  height: 280px;
+}
+
+
+
+
+/*footer_styling*/
+.page-footer{
+  background-color: dodgerblue;
+}
+
+.footer-copyright {
+    color: white;
+    padding: 20px;    
+}
+li a{
+  color: white;
+}
+
+
+.text-uppercase{
+  color: white;
+}
+.para{
+  color: white;
+  text-align: justify;
+  width: 300px;
+}
+p{
+    text-align: justify;
+}
+
+.func-1-timg{
+    width: 600px;
+    height: 700px;
+    margin-left: 200px;
+    }
+
+.fun-1-title{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.fun-1-p{
+    margin-left: 50px;
+}
+
+.fun-1-img{
+    margin-left: 50px;
+}
+
+
+
+.fun-2-title{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.fun-2-p{
+    margin-right: 50px;
+}
+
+.fun-2-img{
+    margin-right: 60px;
+}
+
+.func-2-timg{
+width: 600px;
+height: 700px;
+margin-right: 250px;
+}
+
+
+.playlinkImg{
+    margin-top: 20px;
+}
